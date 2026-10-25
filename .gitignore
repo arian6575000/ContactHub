@@ -1,0 +1,9 @@
+node_modules/
+.expo/
+dist/
+android/
+ios/
+*.keystore
+.env
+.env.local
+expo-env.d.ts

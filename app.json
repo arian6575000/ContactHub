@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "ContractHub",
+    "slug": "contracthub",
+    "scheme": "com.arian.contracthub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.arian.contracthub"
+    },
+    "android": {
+      "package": "com.arian.contracthub",
+      "allowBackup": false,
+      "adaptiveIcon": {
+        "backgroundColor": "#EEF1F8",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-web-browser",
+      ["expo-notifications", { "color": "#3E6BFF" }]
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
